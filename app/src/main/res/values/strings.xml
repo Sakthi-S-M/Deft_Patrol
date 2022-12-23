@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Deft Patrol</string>
+    <string name="logo_name">We are here to help you</string>
+    <string name="slogan_name">Secure your home using Deft Patrol</string>
+
+    <!-- Strings for Onboarding screen -->
+
+    <!-- titles -->
+    <string name="first_slide_title">First Slide</string>
+    <string name="second_slide_title">Second Slide</string>
+    <string name="third_slide_title">Third Slide</string>
+
+    <!-- descriptions -->
+    <string name="first_slide_desc">Description of First Slide</string>
+    <string name="second_slide_desc">Description of Second Slide</string>
+    <string name="third_slide_desc">Description of Third Slide</string>
+
+    <!-- buttons -->
+    <string name="next_btn">Next</string>
+    <string name="skip_btn">Skip</string>
+    <string name="lets_get_started">Lets get started</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="how_we_work">HOW WE WORK ?</string>
+
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">FORGET PASSWORD</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+
+    <string name="startup_heading">Protect your selves</string>
+    <string name="startup_tagline">Signup and stay away they are here to protect your selves</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

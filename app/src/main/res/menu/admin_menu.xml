@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME"
+            android:icon="@drawable/menu"/>
+
+    </group>
+
+    <item android:title="OFFICER SECTION">
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_new_user"
+                    android:title="ADD NEW OFFICER"
+                    android:icon="@drawable/new_user"/>
+
+                <item
+                    android:id="@+id/nav_manage_user"
+                    android:title="MANAGE OFFICERS"
+                    android:icon="@drawable/manage_user"/>
+
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="ROWDY SECTION">
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_add_acquists"
+                    android:title="ADD NEW ROWDY"
+                    android:icon="@drawable/acquists"/>
+
+                <item
+                    android:id="@+id/nav_acquists_location"
+                    android:title="ROWDY LOCATIONS"
+                    android:icon="@drawable/newly"/>
+
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="PATROL SECTION">
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_newly_added"
+                    android:title="LOCKED HOUSES"
+                    android:icon="@drawable/newly"/>
+
+                <item
+                    android:id="@+id/nav_visited"
+                    android:title="VISITED HOUSES"
+                    android:icon="@drawable/maps"/>
+
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="IMAGE SECTION">
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_new_image"
+                    android:title="ADD NEW IMAGE"
+                    android:icon="@drawable/image"/>
+
+                <item
+                    android:id="@+id/nav_retrieve_image"
+                    android:title="SEARCH FOR IMAGE"
+                    android:icon="@drawable/retrieve"/>
+
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="LOGOUT">
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="EXIT"
+                    android:icon="@drawable/skip_icon"/>
+
+
+            </group>
+
+        </menu>
+    </item>
+
+
+</menu>
